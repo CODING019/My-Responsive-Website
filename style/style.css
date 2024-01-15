@@ -7,3 +7,131 @@
      font-family: 'Open Sans', sans-serif;
      font-family: 'Work Sans', sans-serif;
  }
+
+ /*Header-Section-Add*/
+ header {
+     padding: 30px 50px;
+     max-width: 1440px;
+     margin: 0 auto;
+ }
+
+ /*Nav-Section-Start*/
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ nav li {
+     list-style: none;
+     margin-right: 44px;
+     font-size: 18px;
+     font-weight: 400;
+ }
+
+ nav li a {
+     text-decoration: none;
+     color: #424247;
+ }
+
+ .nav-img {
+     display: flex;
+     gap: 20px;
+
+ }
+
+ .nav-img p {
+     color: #131318;
+     font-size: 30px;
+     font-weight: 800;
+ }
+
+ nav img {
+     width: 78px;
+ }
+
+ nav ul {
+     display: flex;
+ }
+
+ .special-text {
+     color: #FF5400;
+     font-weight: 800;
+ }
+
+ /*Nav-Section-End*/
+
+
+ /*Banner-Section*/
+ .banner {
+     position: relative;
+     width: 98%;
+     display: flex;
+     margin-top: 60px;
+     height: 100vh;
+     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+         url('../image/Images/Group\ 13\ \(1\)\ \(1\).png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 10px;
+     justify-content: center;
+     align-items: center;
+ }
+ .banner-text {
+     position: absolute;
+     top: 10%;
+     color: rgb(11, 10, 10);
+     text-align: center;
+     margin: 0px 300px;
+ }
+
+ .text-style {
+     color: #FFF;
+     font-size: 70px;
+     font-weight: 800;
+ }
+
+ .description-style {
+     color: #FFF;
+     font-size: 16px;
+     font-weight: 400;
+     padding-left: 20px;
+     margin-bottom: 70px;
+ }
+
+ 
+
+ /*Input-Style-Design*/
+ .input-container {
+     display: flex;
+     gap: 20px;
+     background: rgba(255, 255, 255, 0.30);
+     border-radius: 8px;
+     padding: 20px;
+ }
+
+ .input-desgin {
+     width: 170px;
+     height: 50px;
+     border-radius: 8px;
+     padding-left: 10px;
+
+ }
+
+ .input-desgin-only {
+     width: 170px;
+     height: 8.3vh;
+     border-radius: 8px;
+     padding-left: 15px;
+     border: 0;
+ }
+
+ /*Button-Style*/
+ .btn-primary {
+     width: 170px;
+     height: 50px;
+     border-radius: 8px;
+     background: #FF5400;
+     color: #FFF;
+    border: 0;
+ }
