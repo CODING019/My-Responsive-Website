@@ -65,7 +65,7 @@
  /*Banner-Section*/
  .banner {
      position: relative;
-     width: 98%;
+     width: 100%;
      display: flex;
      margin-top: 60px;
      height: 100vh;
@@ -77,6 +77,7 @@
      justify-content: center;
      align-items: center;
  }
+
  .banner-text {
      position: absolute;
      top: 10%;
@@ -99,7 +100,7 @@
      margin-bottom: 70px;
  }
 
- 
+
 
  /*Input-Style-Design*/
  .input-container {
@@ -119,7 +120,7 @@
  }
 
  .input-desgin-only {
-     width: 170px;
+     width: 160px;
      height: 8.3vh;
      border-radius: 8px;
      padding-left: 15px;
@@ -133,5 +134,126 @@
      border-radius: 8px;
      background: #FF5400;
      color: #FFF;
-    border: 0;
+     border: 0;
+ }
+
+ /*Feature-Section-Style*/
+ .chart-container {
+     display: flex;
+     padding-right: 50px;
+     gap: 59px;
+ }
+
+ .chart-title {
+     margin-left: 48px;
+     margin-bottom: 24px;
+     color: #131318;
+     font-size: 40px;
+     font-weight: 800;
+ }
+
+ .chart-description {
+     margin-left: 50px;
+     margin-bottom: 20px;
+     color: rgba(19, 19, 24, 0.70);
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .chart-description-end {
+     color: #5A5A5D;
+     font-size: 16px;
+     font-weight: 600;
+ }
+
+ .chart-container ul {
+     margin-left: 45px;
+ }
+
+ .chart-container li {
+     margin-bottom: 20px;
+     color: rgba(19, 19, 24, 0.70);
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .btn-primary-2 {
+     margin-left: 50px;
+     width: 170px;
+     height: 50px;
+     border-radius: 8px;
+     background: #FF5400;
+     color: #FFF;
+     border: 0;
+     margin-top: 20px;
+ }
+
+ /*Responsive-Desgin*/
+
+ @media screen and (max-width:576px) {
+    /*Nav-Section-start*/ 
+    nav {
+         flex-direction: column;
+     }
+
+     nav ul {
+         flex-direction: column;
+     }
+/*Nav-Section-nd*/
+
+/*Input-Section-Start*/
+     header {
+         padding: 2px;
+     }
+
+     .description-style {
+         margin-bottom: 5px;
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+
+     .text-style {
+         font-size: 20px;
+     }
+
+     .input-container {
+         flex-direction: column;
+         gap: 15px;
+         padding: 10px;
+     }
+
+     .btn-primary,
+     .input-desgin {
+         width: 250px;
+     }
+
+     .input-desgin-only {
+         width: 232px;
+     }
+     /*Input-Desgin-End*/
+    /*Chart-Section-Start*/
+    .chart-container{
+        flex-direction: column;
+        gap: 26px;
+ }
+ .chart-img-container img{
+    width: 100%;
+    padding-left: 30px;
+    border-radius: 12px;
+ }
+ .chart-title{
+    margin-left: 10px;
+    font-size: 20px;
+ }
+ .chart-description{
+    margin-left: 10px;
+    font-size:15px ;
+ }
+ .chart-container ul{
+margin-left: 0px;
+ }
+.btn-primary-2{
+    margin-left: 40px;
+}
+
  }
