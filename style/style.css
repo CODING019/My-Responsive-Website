@@ -190,10 +190,9 @@
      margin-top: 20px;
  }
 
- .btn-primary-3 {
-    margin-left: 500px;
+ /*.btn-primary-3 {
+    width: 50%;
     border-radius: 5px;
-     width: 10%;
      padding: 14px 22px;
      background: #FF5400;
      color: #FFF;
@@ -312,7 +311,22 @@
      padding: 0 50px;
      margin: 0 60px;
  }
-
+ /*Description-Style*/
+ .description-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+ }
+ .description-content{
+    margin-left: 60px;
+ }
+ .description-img{
+    padding-right: 50px;
+ }
+ 
+ .description-content{
+   
+ }
  /*Responsive-Desgin*/
 
  @media screen and (max-width:576px) {
