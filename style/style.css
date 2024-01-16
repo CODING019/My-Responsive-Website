@@ -150,14 +150,16 @@
      color: #131318;
      font-size: 35px;
      font-weight: 800;
+     padding-top: 50px;
  }
 
  .description {
      margin-left: 50px;
-     margin-bottom: 19px;
+     margin-bottom: 20px;
      color: rgba(19, 19, 24, 0.70);
      font-size: 16px;
-     font-weight: 400;
+     font-weight: 00;
+     text-align: center;
  }
 
  .chart-description-end {
@@ -188,6 +190,16 @@
      margin-top: 20px;
  }
 
+ .btn-primary-3 {
+    margin-left: 500px;
+    border-radius: 5px;
+     width: 10%;
+     padding: 14px 22px;
+     background: #FF5400;
+     color: #FFF;
+     text-align: center;
+ }
+
  /*location-style*/
 
  .location-banner-container {
@@ -212,6 +224,7 @@
 
  .title {
      text-align: center;
+     padding-right: 20px;
  }
 
  /*Location-Style-End*/
@@ -225,7 +238,7 @@
  }
 
  .card-1 {
-    width: auto;
+     width: auto;
      margin: 10px auto;
      background-color: #e6c1c133;
      border-radius: 16px;
@@ -248,7 +261,57 @@
      padding: 30px;
  }
 
+ /*Card-Style-End*/
 
+ /*Menu-Section-Start*/
+ .main-container {
+     display: flex;
+     width: 1140px;
+     height: 500px;
+     background-image: url("../image/Images/Group\ 39.png");
+     background-repeat: no-repeat;
+     justify-content: end;
+     align-items: center;
+     margin: 0 auto;
+     margin-bottom: 25px;
+     border-radius: 20px
+ }
+
+ .main-container-2 {
+     display: flex;
+     width: 1140px;
+     height: 500px;
+     background-image: url("../image/Images/Group\ 40.png");
+     background-repeat: no-repeat;
+     align-items: center;
+     margin: 0 auto;
+     margin-bottom: 25px;
+     border-radius: 20px;
+ }
+
+ .main-child {
+     width: 570px;
+     height: 389px;
+     ;
+     border-radius: 16px;
+     border: 2px solid #FFF;
+     background: rgba(255, 255, 255, 0.80);
+     backdrop-filter: blur(2.5px);
+     padding: 0 50px;
+     margin: 0 60px;
+ }
+
+ .main-child-2 {
+     width: 570px;
+     height: 389px;
+     ;
+     border-radius: 16px;
+     border: 2px solid #FFF;
+     background: rgba(255, 255, 255, 0.80);
+     backdrop-filter: blur(2.5px);
+     padding: 0 50px;
+     margin: 0 60px;
+ }
 
  /*Responsive-Desgin*/
 
@@ -332,13 +395,41 @@
      .btn-primary-2 {
          margin-left: 40px;
      }
-/*Card-Style-Start*/
+
+     /*Card-Style-Start*/
      .card-container {
          flex-direction: column;
          margin-left: 1px;
          margin-right: 1px;
      }
-     .card-3{
-        width: auto;
+
+     .card-3 {
+         width: auto;
      }
+
+     /*Menu-Section-Start*/
+     .main-container,
+     .main-container-2 {
+         flex-direction: column;
+         width: 100%;
+         border-radius: 20px;
+         margin: 0 auto;
+         margin-bottom: 20px;
+         border: 2px solid black;
+
+     }
+
+     .main-child,
+     .main-child-2 {
+         width: 50%;
+         height: 99%;
+     }
+
+     .btn-primary {
+         width: 100px;
+         margin-bottom: 29px;
+     }
+
+
+
  }
