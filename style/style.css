@@ -343,6 +343,10 @@
      margin-bottom: 20px;
      border-radius: 20px;
  }
+ 
+ .facility-img img{
+border-radius: 20px;
+ }
 
  .feature-title {
      color: #131318;
@@ -358,7 +362,7 @@
      background-color: rgb(192, 170, 236);
      border: 2px solid black;
      width: 900px;
-     height: 80vh;
+    
      border-radius: 20px;
      padding: 20px;
      margin: 0 auto;
@@ -380,8 +384,7 @@
      border-radius: 24px;
 
  }
-
-
+ 
  /*Newsletter-style*/
  .newsletter-container {
      display: flex;
@@ -458,7 +461,7 @@
  .footer-icon {
      display: flex;
      justify-content: center;
-     margin-top: 50px;
+     margin-top: 70px;
  }
 
  .footer-text {
@@ -486,6 +489,9 @@
      font-weight: 400;
 
  }
+ .menu-icon{
+    display: none;
+ }
 
  /*News-Letter-Style*/
 
@@ -495,9 +501,23 @@
  @media screen and (max-width:576px) {
 
      /*Nav-Section-start*/
-     nav,
-     .text-size {
-         flex-direction: column;
+     nav {
+         display: flex;
+     }
+     nav p{
+     display: flex;
+     }
+     nav img{
+        width: 40px;
+     }
+     .nav-img p{
+        font-size: 19px;
+     }
+     .nav-icon{
+        display: none;
+     }
+     .menu-icon{
+        display: inline;
      }
 
      nav ul {
@@ -557,6 +577,9 @@
      .title {
          margin-left: 10px;
          font-size: 20px;
+     }
+     .text-size{
+        flex-direction: column;
      }
 
      .description {
@@ -678,7 +701,7 @@
      }
      .feature-content{
         width: 200px;
-        height: 400px;
+        
      }
      .feature-description{
         font-size: 16px;
